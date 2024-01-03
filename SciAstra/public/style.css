@@ -1,0 +1,36 @@
+/* public/style.css */
+#chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  #chatbot-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+  
+  #chat-messages {
+    height: 70%;
+    overflow-y: scroll;
+    padding: 5px;
+  }
+  
+  #user-input {
+    width: 100%;
+    padding: 8px;
+    border: #007bff;
+    box-sizing: border-box;
+  }
+  
+
+  
